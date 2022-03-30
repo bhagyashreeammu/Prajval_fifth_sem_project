@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: green;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: lightslategrey;
+        }
+
+        fieldset {
+            background-color: #eeeeee;
+        }
+
+        .search {
+            float: right;
+            margin: 0;
+
+        }
+
+
+         /* Set a style for the submit button */
+        button {
+            background-color: blueviolet;
+            color: white;
+            padding: 10px 10px;
+            margin: 2px 0;
+            border: none;
+            cursor: pointer;
+            width: 15%;
+        }
+
+    </style>
+    </head>
+<body>
+<center>
+    <h1 style="font-size:40px"><i>Pogiren IT Company</i></h1>
+</center>
+
+
+
+<ul>
+    <li><a href="#" class="fa fa-home" style="font-size:19px"></a></li>
+    <li><a href="Registration.php">Registration</a></li>
+    <li><a href="instruc.html">Instructions</a></li>
+    <li><a href="tenth.html">SSLC</a></li>
+    <li><a href="secondyear.html">PUC</a></li>
+    <li><a href="graduate.html">Degree</a></li>
+    <li><a href="experiance.html">Experience</a></li>
+    <div class="search">
+        <li><a href="Login.html"><i class=" fa fa-user icon"></i> Login</a></li>
+        <li><a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact us</a></li>
+    </div>
+</ul>
+<br><br><br>
+<blockquote>
+            <form action="subm.html">
+<h3>Upload Profile Photo</h3>
+<tr>
+  <td>
+        <input type="file" name="Gender" required>
+    </td>  
+</td>
+
+<h3>Upload Resume</h3>
+<tr>
+    <td>
+    
+        <input type="file" name="Gender" required>
+    </td>
+</tr>
+
+    <h3>Experience Details</h3>
+<tr>
+    <td>Do you have any Relevant Work Experience?</td>
+    <td>
+        <input type="radio" name="Gender" required>Yes
+        <input type="radio" name="Gender" required>No
+    </td>
+</tr>
+    <p><strong>Note:</strong>Please do not mention Internships/Trainings as relevant Work Experience
+</p>
+<br><br>
+<div class="clearfix">
+    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+        class="cancelbtn">Save</button>
+    <button type="submit" class="signupbtn">Save and Continue </button>
+</div>
+</form>
+</blockquote>
+
+</body>
+
+</html>

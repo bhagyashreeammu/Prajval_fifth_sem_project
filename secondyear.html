@@ -1,0 +1,142 @@
+<!DOCTYPE >
+<html>
+
+<head>
+    <title>Register Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: green;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: lightslategrey;
+        }
+
+        fieldset {
+            background-color: #eeeeee;
+        }
+
+        .search {
+            float: right;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+   
+<center>
+    <h1 style="font-size:40px"><i>Pogiren IT Company</i></h1>
+</center>
+
+
+
+<ul>
+    <li><a href="#" class="fa fa-home" style="font-size:19px"></a></li>
+    <li><a href="Registration.php">Registration</a></li>
+    <li><a href="instruc.html">Instructions</a></li>
+    <li><a href="tenth.html">SSLC</a></li>
+    <li><a href="secondyear.html">PUC</a></li>
+    <li><a href="graduate.html">Degree</a></li>
+    <li><a href="experiance.html">Experience</a></li>
+    <div class="search">
+        <li><a href="Login.html"><i class=" fa fa-user icon"></i> Login</a></li>
+        <li><a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact us</a></li>
+    </div>
+</ul>
+<br><br><br>
+
+    
+    <center>
+                    <form action="graduate.html">
+
+            <table>
+                <h3>Please mention PUC details:</h3>
+                <tr>
+                    <td>Specialization</td>
+                    <td><input type="text" required></td>
+                </tr></br>
+                </br>
+                <tr>
+                    <td>University/Institute :</td>
+                    <td><input type="text" required></td>
+                </tr><br>
+                <tr>
+                    <td>Board of Education :</td>
+                    <td>
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                                <option value="0">Select:</option>
+                                <option value="1">State Board</option>
+                                <option value="2">CBSE</option>
+                                <option value="3">ICSE</option>
+                                <option value="4">IB</option>
+                                <option value="5">NIOS</option>
+                                <option value="4">Any Other (Open School)</option>
+
+                            </select>
+                        </div>
+                    </td>
+
+
+                <tr>
+                    <td>Course Duration:</td>
+                    <td><input type="date" required></td>
+                    <td><input type="date" required></td>
+
+                </tr>
+
+                <tr>
+                    <td>Course Type</td>
+                    <td>
+                        <input type="radio" name="Gender">Full Time 
+                        <input type="radio" name="Gender">Part Time 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Grading System :</td>
+                    <td>
+                        <input type="radio" name="Gender"> CGPA
+                        <input type="radio" name="Gender"> Marks
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>CGPA Obtained</td>
+                    <td><input type="number" required></td>
+                </tr>
+                <tr>
+                    <td>Total CGPA</td>
+                    <td><input type="number" required></td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" value="Submit" ></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>
